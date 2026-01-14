@@ -1,2 +1,143 @@
-<iframe data-tally-src="https://tally.so/embed/KYxJ27?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="Queen Circle"></iframe>
-<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens Circle | Creator Bewerbung</title>
+    <style>
+        /* --- Grundlegendes Design (Angelehnt an Queens Circle Stil) --- */
+        :root {
+            --bg-color: #050505;       /* Sehr dunkler Hintergrund */
+            --card-bg: #111111;        /* Etwas hellerer Bereich für Content */
+            --text-main: #ffffff;      /* Weißer Text */
+            --text-muted: #a0a0a0;     /* Ausgegrauter Text */
+            --gold-accent: #D4AF37;    /* Goldener Akzent für Überschriften/Buttons */
+            --font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-stack);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* --- Header Bereich --- */
+        header {
+            padding: 20px 0;
+            text-align: center;
+            background: linear-gradient(to bottom, #000000, var(--bg-color));
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* --- Hauptinhalt --- */
+        .main-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--gold-accent); /* Goldene Überschrift */
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subline {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* --- Formular Container --- */
+        .form-wrapper {
+            background-color: var(--card-bg);
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            overflow: hidden; /* Wichtig für iFrames */
+        }
+
+        /* --- Footer --- */
+        footer {
+            margin-top: 60px;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #222;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer nav a {
+            color: var(--text-main);
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        footer nav a:hover {
+            color: var(--gold-accent);
+        }
+
+        .copyright {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+
+        /* --- Responsive Anpassungen --- */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .form-wrapper { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Logo_farbe.png" alt="Queens Circle Logo" class="logo">
+    </header>
+
+    <div class="main-container">
+        <h1>Werde Teil des Circles</h1>
+        <p class="subline">
+            Deine Karriere beginnt hier. Fülle das Bewerbungsformular aus, damit wir prüfen können, ob wir zueinander passen. Deine Daten werden streng vertraulich behandelt.
+        </p>
+
+        <div class="form-wrapper">
+            <iframe data-tally-src="https://tally.so/embed/KYxJ27?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="Queen Circle"></iframe>
+            
+            <script>
+                var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="https://queencircel.github.io/queenscircle/">Home</a>
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+        </nav>
+        <div class="copyright">
+            &copy; 2024 Queens Circle – Dargelis & Goebel GbR. All Rights Reserved.<br>
+            Exklusives Management für Adult Content Creator.
+        </div>
+    </footer>
+
+</body>
+</html>
